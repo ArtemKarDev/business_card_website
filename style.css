@@ -363,3 +363,50 @@ span {
   margin-right: auto;
   width: 100%;
 }
+
+.img
+  {background-image: url(../images/kirp.jpg);
+
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height:100%;
+  width:99%;}
+
+.info
+  {width: 70%;
+  margin: 15%;
+  height: auto;
+  border-radius: 8px;
+  border-top: solid silver 0.5px;
+  border-right: solid silver 0.5px;
+  border-bottom: solid silver 0.5px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow:  4px 4px 8px 1px #535353c2;
+  }
+
+.title1
+  {font-size: 2em;
+  padding-left:50px;
+  padding-top:40px;
+  padding-bottom:40px ;
+
+  text-align:;
+  color: rgb(255, 255, 255);
+  border-bottom:  silver 0.5px;}
+
+
+  /*данные*/
+.full_name
+  {width:95%;
+  padding-left:50px;
+  padding-bottom: 50px;
+  height:auto ;
+  font-size: 1.0em;
+
+  text-align:;
+  border: silver 0.5px;
+  background-color:;
+
+  color:rgb(255, 255, 255);}
