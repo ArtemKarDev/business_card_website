@@ -17,7 +17,7 @@ body {
 
 img {
   width: 100%;
-  height: 100%;
+  height: 100%;  
 }
 
 h1, h2, h3 {
@@ -164,19 +164,8 @@ h1, h2, h3 {
 
 
 @keyframes ava-animate {
+
   0% {
-    border-radius: 62% 38% 72% 28% / 67% 32% 68% 33%;
-  }
-
-  30% {
-    border-radius: 51% 49% 46% 54% / 47% 48% 52% 53%;
-  }
-
-  60% {
-    border-radius: 47% 53% 81% 19% / 81% 81% 19% 19%;
-  }
-
-  80% {
     border-radius: 25% 25% 25% 25% / 25% 25% 25% 25%;
   }
 
@@ -196,46 +185,6 @@ h1, h2, h3 {
 }
 
 
-
-
-.article1 {
-  position: relative;
-  min-height: 80vh;
-  padding: 8px 50px;
-}
-
-.article_whitebg1::before,
-.article_bluebg1::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  content:'';
-}
-
-.article_whitebg1::before {
-  background: rgba(255, 255, 255, 0.5);
-}
-
-.article_bluebg::before {
-  background: rgba(0, 34, 255, 0.5);
-}
-
-.article_first1,
-.article_second1 {
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
-
-.article_first {
-  background-image: url("1first_bg.jpg");
-}
-
-.article_second {
-  background-image: url("1second_bg2.jpg");
-}
 
 .form {
   position: relative;
@@ -316,43 +265,14 @@ span {
 	display: inline;
 	background-color: rgba(0, 0, 0, 0.5);
 	box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 350px 0 0 rgba(0, 0, 0, 0.5);
-	
 	color: #FFFFFF;
 
 }
 
 
 
-.portfoli1o {
-  display: flex;
-  min-height: 100vh;
-  padding: 8px 50px;
-  
-  background-image: url("1subtle-prism.svg");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-}
 
-.portfolio__title {
-  transform: translateX(0);
-  animation-name: header_anim;
-  animation-duration: 1s;
-  animation-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  text-transform: uppercase;
-  color: #fff;
-  align-self: center;
-}
 
-.wrapper {
-  background-color: rgba(0, 0, 0, 0.5);
-  box-shadow: -10px 0 0 rgba(0, 0, 0, 0.5), 0px 0 0 rgba(0, 0, 0, 0.5);
-  max-width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-
-}
 
 .text {
 
@@ -364,14 +284,13 @@ span {
   width: 100%;
 }
 
-.img
-  {background-image: url(../images/kirp.jpg);
+.img  {
 
   display:flex;
   justify-content: center;
   align-items: center;
   height:100%;
-  width:99%;}
+  width:100%;}
 
 .info
   {width: 70%;
@@ -391,8 +310,6 @@ span {
   padding-left:50px;
   padding-top:40px;
   padding-bottom:40px ;
-
-  text-align:;
   color: rgb(255, 255, 255);
   border-bottom:  silver 0.5px;}
 
@@ -404,9 +321,5 @@ span {
   padding-bottom: 50px;
   height:auto ;
   font-size: 1.0em;
-
-  text-align:;
   border: silver 0.5px;
-  background-color:;
-
   color:rgb(255, 255, 255);}

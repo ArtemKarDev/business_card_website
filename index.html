@@ -27,19 +27,21 @@
     <style type="text/css">
 
     .fon_scroll {
-    margin:0 auto;
-
+    margin: 0 auto;
+    display: flex; 
     background-color:#ffffff;
     background-image:url(first_bg.jpg);
+    max-width: 100%;
     background-repeat:no-repeat;
     background-attachment:fixed;
+    background-size: cover;
 
     }
     </style>
 
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]function(){(m[i].a=m[i].a[]).push(arguments)};
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
     m[i].l=1*new Date();
     for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
     k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
@@ -56,12 +58,13 @@
 
 </head>
 
-<body>
+<body >
 
     <header class="header">
         <a class="header__logo logo" id="top" href="#"></a>
 
     </header>
+
         <div class="hero article_first fon_scroll">
             <div class="container hero__container">
                 <div class="hero__about title2">
@@ -92,8 +95,13 @@
                         <a class="hero__link" href="https://github.com/ArtemKarDev" target="_blank">
                             <i class='bx bxl-github bx-md'></i>
                         </a>
-
-
+                        <a class="hero__link" href="https://ru.stackoverflow.com/users/549768/artem-kar" target="_blank">
+                            <i class='bx bxl-stack-overflow bx-md'></i>
+                        </a>
+                        <a class="hero__link" href="https://stepik.org/users/377945815" target="_blank">
+                            <i class='bx bx-book-open bx-md'></i>
+                        </a>
+                    
                         
                     </div>
                     
@@ -142,7 +150,7 @@
         </div>
 
 
-        <div class="img fon_scroll">
+        <div class=" fon_scroll">
             <div class="info">
                 <div class="title1">Моя история</div>
                     <div class="full_name">
