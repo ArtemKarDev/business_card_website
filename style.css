@@ -24,6 +24,9 @@ h1, h2, h3 {
   margin: 0;
 }
 
+a {
+  text-decoration: none !important;
+}
 
 .header {
   width: 100%;
@@ -100,10 +103,19 @@ h1, h2, h3 {
 }
 
 .hero__link:hover {
-  color: #883d88;
+  color: #804f80;
 }
 
-.scroll_to_email:hover {
+
+.link_pink:visited {
+  color: #e69ee6;
+}
+
+.link_pink:active {
+  color: #fcdffc;
+}
+
+.link_pink:hover {
   color: #f7a3f7;
 }
 
