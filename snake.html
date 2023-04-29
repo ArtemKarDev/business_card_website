@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Змейка</title>
+ <!-- Подключаем фавикон -->
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <!-- Подключаем файл со стилями -->
+  <link rel="stylesheet" href="style.css">
+    <style type="text/css">
+    .fon_scroll {
+    margin: 0 auto;
+    display: flex; 
+    background-color:#ffffff;
+    background-image:url(first_bg.jpg);
+    max-width: 100%;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+    }
+
+
+    .info1
+  {width: 70%;
+  margin: 15%;
+  height: auto;
+  border-radius: 8px;
+  border-top: solid silver 0.5px;
+  border-right: solid silver 0.5px;
+  border-bottom: solid silver 0.5px;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.5);
+  box-shadow:  4px 4px 8px 1px #535353c2;
+  }
+
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="fon_scroll" >
+        <div class="info1" >
+
+                <div class="full_name2" >
+                    
+                        <canvas id="game" width="400" height="400" ></canvas>
+                        <script  src="snake.js"> </script>
+                    
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

@@ -13,7 +13,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
+canvas {
+	border: 1px solid black;
+	background: gray;
+	border-radius: 3px;
+	}
 
 img {
   width: 100%;
@@ -331,6 +335,21 @@ span {
   {width:95%;
   padding-left:50px;
   padding-bottom: 50px;
+  height:auto ;
+  font-size: 1.0em;
+  border: silver 0.5px;
+  color:rgb(255, 255, 255);}
+
+
+  .full_name2
+  {width:95%;
+  padding-top:5px;
+  padding-left:50px;
+  padding-bottom: 5px;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
   height:auto ;
   font-size: 1.0em;
   border: silver 0.5px;
